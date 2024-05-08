@@ -1,0 +1,57 @@
+*{/*estilo de cuerpo*/
+    margin:0;/*margen*/
+    padding: 0;/*margen arriba*/
+    box-sizing: border-box;/*posicion*/
+}
+.nave{
+    width: 80px;/*ancho*/
+    height: 80px;/*alto*/
+    background-image: url('../img/nave.png');/*imagen de nave*/
+    background-repeat: no-repeat;/*no repetir la imagen*/
+    background-size: cover;/*tamaño de imagenes*/
+    position: absolute;/*posicion*/
+    bottom:50px;/*tamaño*/
+    left: calc(50vw - 40px);/*lateral*/
+}
+body{
+    background-image: url('../img/fondo22.webp');/*imagen de fondo*/
+    background-repeat: no-repeat;/*no repetir la imagen*/
+    background-size: cover;/*tamaño de imagenes*/
+    height: 100vh;/*alto*/
+    width: 100vw;/*ancho*/
+    overflow: hidden;/**/
+}
+.bala{
+    width: 10px;/*ancho*/
+    height: 50px;/*alto*/
+    background-color:rgb(234,243,150);/*color de fondo*/
+    border-radius: 15px;/*redondeado*/
+    box-shadow: 0px 0px 40px 10px rgb(213, 0, 0);/*tamaño y clor de bala*/
+    position: absolute;/*posicion*/
+}
+.enemigo{
+    width: 80px;/*ancho*/
+    height: 50px;/*alto*/
+    background-image: url('../img/nave1_unused.png');/*imagen de nave*/
+    background-repeat: no-repeat;/*no repetir la imagen*/
+    background-size: cover;/*tamaño de imagenes*/
+    position: absolute;/*posicion*/
+    top:0;
+}
+#lives{
+    position: absolute;/*posicion*/
+    top:10px;/*espacio de arriba*/
+    left: 10px;/*espacio de los lados*/
+    font-size: 2em;/*tamaño*/
+    color:rgb(245,222,19);/*color de letra*/
+}
+i{
+    color:red;/*color de letra*/
+}
+#times{
+    position:absolute;/*posicion*/
+    top:10px;/*espacio de arriba*/
+    right: 10px;/*espacio de abajo*/
+    font-size: 2em;/*tamaño*/
+    color:lightcoral;/*color de letra*/
+}

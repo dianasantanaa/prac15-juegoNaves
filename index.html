@@ -1,0 +1,21 @@
+<!DOCTYPE html><!--informa al navegdor que version de HTML se ocupa-->
+<html lang="es"><!--se utiliza para comenzar a estructurar y el idioma-->
+<head><!--información general acerca del documento, incluyendo su título y
+  enlaces a scripts y hojas de estilos-->
+  <meta charset="UTF-8">"><!--responsable de que se muestre el contenido correctamente y con caracteres-->
+  <!-- metaetiqueta mediante la que se establece si se puede hacer zoom en una página, el zoom inicial o 
+      la anchura de la pantalla del dispositivo-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css"><!--se enlaza una hoja de estilo-->
+  <title>Juego en js</title><!--se encarga de dale titulo a la pestaña de la pagina-->
+</head><!--se cierra la parte de la informacion general-->
+<body><!--comienza la estructura de la pagina web-->
+<span id="lives">Lives:<i>5</i></span><!--colocamos las vidas que tendra-->
+<span id="times"></span>
+<div class="nave" id="nave"></div><!--crea la clase de la nave-->
+<audio src="audio/laser.mp3" id="laser"></audio><!--añade el audio del laser-->
+<audio src="audio/explosion.mp3" id="explosion"></audio><!--añade audio de explosion-->
+<script src="js/app.js"></script><!--se enlaza con java-->
+</body><!--se termina lo que ira dentro de la pagina web-->
+</html><!--fin de la estructura-->
